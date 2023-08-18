@@ -1,3 +1,14 @@
+This fork is mostly aimed at my own self-hosting needs. In particular, that means:
+
+- Removing the accolades
+- Removing the social nudges
+- Removing Google Fonts import
+- Removing Plausible analytics
+- Removing the service worker
+  - Offline is nice, I just don't really see that being an issue in my case
+
+You can see (and use) it on [write.bsprague.com](https://write.bsprague.com).
+
 # The Most Dangerous Writing App
 
 ![Version](https://img.shields.io/github/package-json/v/maebert/themostdangerouswritingapp.svg?color=F45653&style=popout-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACAAQMAAAD58POIAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAGUExURfRWU//++ixAmzsAAAAqSURBVEjHY2AYBYRA/X84+DfkBX7AfCU/KjAqMCowKjAYBYZRiTsK8AEAVGnHUCe0//MAAAAASUVORK5CYII=)

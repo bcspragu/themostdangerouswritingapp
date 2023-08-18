@@ -4,7 +4,6 @@
     width: 100%;
 
     h2 {
-        font-family: Merriweather;
         font-weight: 400;
         font-size: $reg;
         text-align: center;
@@ -22,15 +21,6 @@
             animation-iteration-count: infinite;
             opacity: .1;
         }
-    }
-
-    .accolades {
-        height: 53px;
-        background: url(/images/accolades.png) center center no-repeat transparent;
-        background-size: 50%;
-        position: absolute;
-        bottom: 40px;
-        width: 100%;
     }
 
     .helpButton {

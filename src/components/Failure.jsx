@@ -5,16 +5,6 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 import WriteButton from "./WriteButton";
 import { withAppContext } from "./AppContext";
 
-const TweetButton = ({ words }) => {
-  const href = `https://twitter.com/intent/tweet?text=I+wrote+${words}+words+using+The+Most+Dangerous+Writing+App+-+until+it+deleted+everything+.+%23MDWA&url=https%3A%2F%2Fmaebert.github.io%2Fthemostdangerouswritingapp%2F`;
-  const label = `I wrote ${words} words using The Most Dangerous Writing App - until it deleted everything.`;
-  return (
-    <a className="tweet" href={href}>
-      {label}
-    </a>
-  );
-};
-
 const Failure = ({ limit, type, lost, words }) => {
   return (
     <TransitionGroup>
@@ -26,7 +16,10 @@ const Failure = ({ limit, type, lost, words }) => {
             </Link>
             <div className="inner">
               <h3>You failed.</h3>
-              <TweetButton words={words} />
+              <h4>
+                You wrote {words} words, and got them all deleted<br/>
+                through your inaction.
+                </h4>
               <WriteButton
                 ghost
                 noPanel
